@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand-espresso: #0F0B08;
+  --color-brand-charcoal: #1A1410;
+  --color-brand-olive: #3A4B28;
+  --color-brand-olive-muted: #2A3820;
+  --color-brand-gold: #C8881A;
+  --color-brand-gold-muted: #A0742D;
+  --color-brand-cream: #F5EDD8;
+  --color-brand-cream-muted: #D4C4A0;
+  --color-brand-tan: #8A7355;
+
+  --font-cormorant: var(--font-cormorant-garamond);
+  --font-dm: var(--font-dm-sans);
+}
+
+:root {
+  --background: #0F0B08;
+  --foreground: #F5EDD8;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-dm-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0F0B08;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3A4B28;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C8881A;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 35s linear infinite;
+}
