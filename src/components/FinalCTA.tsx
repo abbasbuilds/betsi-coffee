@@ -27,8 +27,16 @@ export function FinalCTA() {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
-              href="#menu"
+              href="https://www.ubereats.com/ca/store/betsi-coffee-bank/TeoY_xNQVby7gJPs7XWC2w"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-10 py-4 bg-white text-brand-green font-dm font-semibold text-sm tracking-[0.15em] uppercase rounded-full hover:bg-brand-cream transition-colors"
+            >
+              Order on UberEats ↗
+            </a>
+            <a
+              href="#menu"
+              className="px-10 py-4 border border-white/30 text-white font-dm text-sm tracking-[0.15em] uppercase rounded-full hover:bg-white/10 transition-colors"
             >
               View Menu
             </a>

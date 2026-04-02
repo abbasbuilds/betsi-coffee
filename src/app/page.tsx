@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
+import { HoursStrip } from "@/components/HoursStrip";
 import { Marquee } from "@/components/Marquee";
 import { Story } from "@/components/Story";
 import { Menu } from "@/components/Menu";
@@ -13,6 +14,7 @@ export default function Home() {
     <main className="relative min-h-screen bg-brand-espresso">
       <Navbar />
       <Hero />
+      <HoursStrip />
       <Marquee />
       <Story />
       <Menu />

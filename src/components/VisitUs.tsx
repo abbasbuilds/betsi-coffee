@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MapPin, Phone, Clock } from "lucide-react";
+import { MapPin, ShoppingBag, Clock } from "lucide-react";
 
 const details = [
   {
@@ -13,14 +13,14 @@ const details = [
   {
     icon: Clock,
     label: "Hours",
-    value: "Mon – Sat · Open Daily",
+    value: "Mon–Fri 7:30 AM–7:00 PM · Sat 9:30 AM–7:00 PM · Sun 11:00 AM–7:00 PM",
     href: null,
   },
   {
-    icon: Phone,
-    label: "Visit",
-    value: "Walk-in welcome · Corner store entrance",
-    href: null,
+    icon: ShoppingBag,
+    label: "Order Ahead",
+    value: "Available on UberEats — pickup & delivery",
+    href: "https://www.ubereats.com/ca/store/betsi-coffee-bank/TeoY_xNQVby7gJPs7XWC2w",
   },
 ];
 

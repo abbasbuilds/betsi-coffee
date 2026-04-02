@@ -53,7 +53,9 @@ export function Navbar() {
 
         {/* CTA */}
         <a
-          href="#menu"
+          href="https://www.ubereats.com/ca/store/betsi-coffee-bank/TeoY_xNQVby7gJPs7XWC2w"
+          target="_blank"
+          rel="noopener noreferrer"
           className="px-5 py-2 bg-brand-green text-white font-dm font-semibold text-xs tracking-[0.12em] uppercase rounded-full hover:bg-brand-green-light transition-colors"
         >
           Order Now

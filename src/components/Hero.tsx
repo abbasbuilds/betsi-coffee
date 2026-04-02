@@ -51,10 +51,12 @@ export function Hero() {
               View Menu →
             </a>
             <a
-              href="#visit"
-              className="px-8 py-3.5 border border-white/35 text-white font-dm text-sm tracking-[0.15em] uppercase rounded-full hover:bg-white/10 transition-colors"
+              href="https://www.ubereats.com/ca/store/betsi-coffee-bank/TeoY_xNQVby7gJPs7XWC2w"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3.5 border border-brand-gold/60 text-brand-gold font-dm text-sm tracking-[0.15em] uppercase rounded-full hover:bg-brand-gold/10 transition-colors"
             >
-              Find Us
+              Order on UberEats
             </a>
           </div>
         </motion.div>
