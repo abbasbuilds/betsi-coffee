@@ -26,22 +26,25 @@ export function Hero() {
           className="max-w-[55%] lg:max-w-[50%]"
         >
           <span className="font-dm text-brand-gold uppercase tracking-[0.3em] text-[0.68rem] font-medium mb-5 block">
-            260 Bank St · Ottawa · Ethiopian Specialty Coffee
+            Ethiopian Coffee
           </span>
 
-          <h1 className="font-cormorant leading-[0.85] flex flex-col" style={{ textShadow: "0 2px 24px rgba(0,0,0,0.4)" }}>
-            <span className="text-[clamp(4.5rem,8vw,8.5rem)] text-white font-light italic">
-              Bold as
+          <h1
+            className="font-cormorant leading-[0.88] flex flex-col"
+            style={{ textShadow: "0 2px 32px rgba(0,0,0,0.5)" }}
+          >
+            <span className="text-[clamp(4rem,7.5vw,8rem)] text-white font-bold">
+              Rich &amp; Flavorful
             </span>
-            <span className="text-[clamp(4.5rem,8vw,8.5rem)] text-brand-gold font-bold">
-              Ethiopia.
+            <span className="text-[clamp(4rem,7.5vw,8rem)] text-brand-gold font-bold italic">
+              Brew.
             </span>
           </h1>
 
-          <p className="font-dm text-white/70 text-[clamp(0.875rem,1.2vw,1rem)] max-w-[440px] mt-6 leading-relaxed">
-            From the birthplace of coffee to 260 Bank St. Betsi roasts
-            Ethiopian beans in-house and brews them the way they were meant
-            to be — with ceremony.
+          <p className="font-dm text-white/70 text-[clamp(0.875rem,1.2vw,1rem)] max-w-[460px] mt-6 leading-relaxed">
+            Experience the bold and aromatic taste of our brewed Ethiopian
+            coffee. Sip and savour the authentic flavours that will transport
+            you to the coffee farms of Ethiopia — now at 260 Bank St, Ottawa.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-10">
