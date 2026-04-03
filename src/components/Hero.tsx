@@ -7,14 +7,15 @@ export function Hero() {
     <section className="relative h-svh w-full overflow-hidden">
       {/* Real photo background */}
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 z-0 bg-cover bg-no-repeat"
         style={{
-          backgroundImage: `url('https://cdn.menu-world.com/betsi-coffee-bank/1.jpg')`,
+          backgroundImage: `url('https://images.unsplash.com/photo-1630861412757-d9743d318312?w=1920&q=85&fit=crop&crop=center')`,
+          backgroundPosition: "60% center",
         }}
       />
       {/* Overlays — vertical base + strong left-side text protection */}
-      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-brand-dark/55 via-brand-dark/30 to-brand-dark/80" />
-      <div className="absolute inset-0 z-[2] bg-gradient-to-r from-brand-dark/80 via-brand-dark/40 to-transparent" />
+      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-brand-dark/60 via-brand-dark/20 to-brand-dark/75" />
+      <div className="absolute inset-0 z-[2] bg-gradient-to-r from-brand-dark/85 via-brand-dark/50 to-transparent" />
 
       {/* Content — bottom-left */}
       <div className="relative z-10 w-full h-full max-w-7xl mx-auto flex flex-col justify-end px-6 pb-16 lg:px-12 lg:pb-24">
@@ -38,9 +39,9 @@ export function Hero() {
           </h1>
 
           <p className="font-dm text-white/70 text-[clamp(0.875rem,1.2vw,1rem)] max-w-[440px] mt-6 leading-relaxed">
-            Hand-roasted Ethiopian specialty coffee, brewed fresh daily. Hiding
-            inside a corner store at 260 Bank St — and outperforming every
-            franchise on the block.
+            From the birthplace of coffee to 260 Bank St. Betsi roasts
+            Ethiopian beans in-house and brews them the way they were meant
+            to be — with ceremony.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-10">
