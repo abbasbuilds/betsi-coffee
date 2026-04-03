@@ -17,31 +17,31 @@ export function Hero() {
       <div className="absolute inset-0 z-[1] bg-gradient-to-b from-brand-dark/60 via-brand-dark/20 to-brand-dark/75" />
       <div className="absolute inset-0 z-[2] bg-gradient-to-r from-brand-dark/85 via-brand-dark/50 to-transparent" />
 
-      {/* Content — bottom-left */}
-      <div className="relative z-10 w-full h-full max-w-7xl mx-auto flex flex-col justify-end px-6 pb-16 lg:px-12 lg:pb-24">
+      {/* Content — vertically centered, left-anchored */}
+      <div className="relative z-10 w-full h-full max-w-7xl mx-auto flex flex-col justify-center px-6 pt-20 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: "easeOut" }}
-          className="max-w-[55%] lg:max-w-[50%]"
+          className="max-w-[52%] lg:max-w-[46%]"
         >
           <span className="font-dm text-brand-gold uppercase tracking-[0.3em] text-[0.68rem] font-medium mb-5 block">
             Ethiopian Coffee
           </span>
 
           <h1
-            className="font-cormorant leading-[0.88] flex flex-col"
-            style={{ textShadow: "0 2px 32px rgba(0,0,0,0.5)" }}
+            className="font-cormorant leading-[0.9] flex flex-col"
+            style={{ textShadow: "0 2px 32px rgba(0,0,0,0.55)" }}
           >
-            <span className="text-[clamp(4rem,7.5vw,8rem)] text-white font-bold">
+            <span className="text-[clamp(3.2rem,5.5vw,6.5rem)] text-white font-bold">
               Rich &amp; Flavorful
             </span>
-            <span className="text-[clamp(4rem,7.5vw,8rem)] text-brand-gold font-bold italic">
+            <span className="text-[clamp(3.2rem,5.5vw,6.5rem)] text-brand-gold font-bold italic">
               Brew.
             </span>
           </h1>
 
-          <p className="font-dm text-white/70 text-[clamp(0.875rem,1.2vw,1rem)] max-w-[460px] mt-6 leading-relaxed">
+          <p className="font-dm text-white/70 text-[clamp(0.875rem,1.1vw,0.975rem)] max-w-[420px] mt-6 leading-relaxed">
             Experience the bold and aromatic taste of our brewed Ethiopian
             coffee. Sip and savour the authentic flavours that will transport
             you to the coffee farms of Ethiopia — now at 260 Bank St, Ottawa.
