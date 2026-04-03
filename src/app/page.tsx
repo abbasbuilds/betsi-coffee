@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { HoursStrip } from "@/components/HoursStrip";
 import { Marquee } from "@/components/Marquee";
 import { Story } from "@/components/Story";
+import { EthiopianBorder } from "@/components/EthiopianBorder";
 import { Menu } from "@/components/Menu";
 import { Reviews } from "@/components/Reviews";
 import { VisitUs } from "@/components/VisitUs";
@@ -17,6 +18,7 @@ export default function Home() {
       <HoursStrip />
       <Marquee />
       <Story />
+      <EthiopianBorder id="tb-story-menu" />
       <Menu />
       <Reviews />
       <VisitUs />

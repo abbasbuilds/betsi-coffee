@@ -21,7 +21,7 @@ const drinks = [
 
 export function Menu() {
   return (
-    <section id="menu" className="py-24 lg:py-36 bg-white">
+    <section id="menu" className="py-24 lg:py-36 bg-[#FFFBF4]">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <motion.div
@@ -31,8 +31,10 @@ export function Menu() {
           transition={{ duration: 0.7 }}
           className="mb-16"
         >
-          <span className="font-dm text-brand-gold uppercase tracking-[0.28em] text-[0.68rem] font-medium mb-3 block">
+          <span className="font-dm text-brand-gold uppercase tracking-[0.28em] text-[0.68rem] font-medium mb-3 flex items-center gap-2">
+            <span className="text-[#DA291C] text-[8px]">◆</span>
             Taste the Best
+            <span className="text-[#078930] text-[8px]">◆</span>
           </span>
           <h2 className="font-cormorant text-brand-dark text-[clamp(2.8rem,6vw,5rem)] leading-[0.92] font-light italic">
             Discover Our Menu.

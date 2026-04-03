@@ -22,8 +22,10 @@ export function Story() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <span className="font-dm text-brand-gold uppercase tracking-[0.28em] text-[0.68rem] font-medium mb-5 block">
+            <span className="font-dm text-brand-gold uppercase tracking-[0.28em] text-[0.68rem] font-medium mb-5 flex items-center gap-2">
+              <span className="text-[#DA291C] text-[8px]">◆</span>
               Our Story
+              <span className="text-[#078930] text-[8px]">◆</span>
             </span>
             <h2 className="font-cormorant text-brand-dark text-[clamp(2.8rem,6vw,5rem)] leading-[0.92] font-light italic mb-8">
               The Café That Had Guts.
@@ -49,12 +51,15 @@ export function Story() {
 
             {/* Stats */}
             <div className="grid grid-cols-2 gap-px mt-10 border border-brand-border rounded-xl overflow-hidden">
-              {stats.map(({ value, label }) => (
+              {stats.map(({ value, label }, i) => (
                 <div
                   key={label}
-                  className="bg-white px-6 py-7 flex flex-col gap-1"
+                  className="bg-white px-6 py-7 flex flex-col gap-1 border-t-[3px]"
+                  style={{
+                    borderTopColor: ["#DA291C", "#FCDD09", "#078930", "#C59D5F"][i],
+                  }}
                 >
-                  <span className="font-cormorant text-brand-green text-[2.6rem] font-light leading-none">
+                  <span className="font-cormorant text-brand-green text-[2.8rem] font-semibold leading-none">
                     {value}
                   </span>
                   <span className="font-dm text-brand-muted text-[0.68rem] uppercase tracking-[0.15em]">
