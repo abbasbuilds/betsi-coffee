@@ -22,7 +22,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
         {/* Logo */}
         <span
-          className={`font-cormorant text-2xl italic font-light tracking-wide transition-colors ${
+          className={`font-cormorant text-4xl italic font-light tracking-wide transition-colors ${
             scrolled ? "text-brand-green" : "text-white"
           }`}
         >
