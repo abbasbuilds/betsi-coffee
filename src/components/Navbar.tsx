@@ -26,7 +26,7 @@ export function Navbar() {
             scrolled ? "text-brand-green" : "text-white"
           }`}
         >
-          Betsi Coffee
+          Melaku
         </span>
 
         {/* Links */}

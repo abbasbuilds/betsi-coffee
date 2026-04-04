@@ -86,7 +86,7 @@ export function FinalCTA() {
                 View Menu
               </a>
               <a
-                href="https://maps.google.com/?q=Betsi+Coffee+260+Bank+St+Ottawa+ON"
+                href="https://maps.google.com/?q=Melaku+Coffee+260+Bank+St+Ottawa+ON"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-10 py-4 border border-white/30 text-white font-dm text-sm tracking-[0.15em] uppercase rounded-full hover:bg-white/10 transition-colors"

@@ -16,7 +16,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Betsi Coffee | Ethiopian Specialty Coffee · Ottawa",
+  title: "Melaku | Ethiopian Specialty Coffee · Ottawa",
   description:
     "Hand-roasted Ethiopian specialty coffee at 260 Bank St, Ottawa. 4.8 stars · 4,853 reviews. Cold brew, hot espresso, pastries, and wraps.",
 };

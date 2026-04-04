@@ -8,7 +8,7 @@ const details = [
     icon: MapPin,
     label: "Address",
     value: "260 Bank St, Ottawa, ON K2P 1X4",
-    href: "https://maps.google.com/?q=Betsi+Coffee+260+Bank+St+Ottawa+ON",
+    href: "https://maps.google.com/?q=Melaku+Coffee+260+Bank+St+Ottawa+ON",
   },
   {
     icon: Clock,
@@ -71,7 +71,7 @@ export function VisitUs() {
             </div>
 
             <a
-              href="https://maps.google.com/?q=Betsi+Coffee+260+Bank+St+Ottawa+ON"
+              href="https://maps.google.com/?q=Melaku+Coffee+260+Bank+St+Ottawa+ON"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-3.5 bg-brand-green text-white font-dm font-semibold text-sm tracking-[0.15em] uppercase rounded-full hover:bg-brand-green-light transition-colors"
@@ -96,7 +96,7 @@ export function VisitUs() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Betsi Coffee location — 260 Bank St, Ottawa"
+              title="Melaku location — 260 Bank St, Ottawa"
             />
           </motion.div>
         </div>

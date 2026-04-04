@@ -25,7 +25,7 @@ export function Footer() {
         {/* Col 1 — Brand */}
         <div>
           <span className="font-cormorant text-3xl text-white italic font-light tracking-wide block mb-3">
-            Betsi Coffee
+            Melaku
           </span>
           <p className="font-dm text-white/40 text-[0.8rem] leading-relaxed mb-8">
             Ethiopian specialty coffee, roasted in-house and brewed with ceremony.
@@ -135,7 +135,7 @@ export function Footer() {
       <div className="border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-dm text-white/20 text-[0.72rem] tracking-[0.08em]">
-            © {new Date().getFullYear()} Betsi Coffee · 260 Bank St, Ottawa
+            © {new Date().getFullYear()} Melaku · 260 Bank St, Ottawa
           </p>
           <p className="font-dm text-white/15 text-[0.72rem] tracking-[0.08em]">
             Ethiopian Specialty Coffee · In-House Roasted

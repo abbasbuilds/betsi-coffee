@@ -33,12 +33,12 @@ export function Story() {
             <div className="space-y-5 font-dm text-brand-text text-[0.95rem] leading-relaxed">
               <p>
                 It takes something to open a specialty coffee bar directly
-                opposite the biggest coffee chain in Canada. Betsi Coffee did
+                opposite the biggest coffee chain in Canada. Melaku did
                 it anyway — and Ottawa noticed.
               </p>
               <p>
                 Tucked inside what looks like a corner store on Bank Street,
-                Betsi Coffee is a genuine Ethiopian specialty experience.
+                Melaku is a genuine Ethiopian specialty experience.
                 Walk in and you&apos;ll find a full espresso bar, hand-roasted
                 Ethiopian coffee, and drinks that rival anything a franchise
                 produces.
@@ -82,7 +82,7 @@ export function Story() {
             <div className="relative h-80 rounded-2xl overflow-hidden">
               <Image
                 src="https://cdn.menu-world.com/betsi-coffee-bank/2.jpg"
-                alt="Betsi Coffee interior — Bank St Ottawa"
+                alt="Melaku interior — Bank St Ottawa"
                 fill
                 className="object-cover"
                 unoptimized

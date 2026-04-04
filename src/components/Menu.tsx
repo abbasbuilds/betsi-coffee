@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const food = [
   { name: "Beef Wraps", price: "$12.85", note: "Hearty, fresh, wrapped to order" },
-  { name: "Betsi Breakfast Chicken Muffin", price: "$8.99", note: "A morning staple" },
+  { name: "Melaku Breakfast Chicken Muffin", price: "$8.99", note: "A morning staple" },
   { name: "Bacon and Egg Muffin", price: "$7.69", note: "Classic done right" },
   { name: "Cinnamon Brioche", price: "$5.85", note: "Baked in-house, warm & fragrant" },
   { name: "Vegetarian Sambuusa", price: "Ask us", note: "Ethiopian classic" },
@@ -52,7 +52,7 @@ export function Menu() {
             <div className="relative h-52 rounded-2xl overflow-hidden mb-6">
               <Image
                 src="https://images.unsplash.com/photo-1675782277944-cd30cf9ee8f0?w=800&auto=format&fit=crop&q=80"
-                alt="Cinnamon Brioche — Betsi Coffee"
+                alt="Cinnamon Brioche — Melaku Coffee"
                 fill
                 className="object-cover"
                 unoptimized
@@ -87,7 +87,7 @@ export function Menu() {
             <div className="relative h-52 rounded-2xl overflow-hidden mb-6">
               <Image
                 src="https://images.unsplash.com/photo-1531835207745-506a1bc035d8?w=800&auto=format&fit=crop&q=80"
-                alt="Iced Cold Brew — Betsi Coffee"
+                alt="Iced Cold Brew — Melaku Coffee"
                 fill
                 className="object-cover"
                 unoptimized
