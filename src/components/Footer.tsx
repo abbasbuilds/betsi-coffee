@@ -1,6 +1,6 @@
 "use client";
 
-import { MapPin, Clock, ShoppingBag, Instagram, Facebook } from "lucide-react";
+import { MapPin, Clock, ShoppingBag, Instagram, Facebook, Phone } from "lucide-react";
 
 const links = [
   { label: "Our Menu", href: "#menu" },
@@ -114,6 +114,13 @@ export function Footer() {
                   </p>
                 ))}
               </div>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <Phone size={14} className="text-brand-gold mt-0.5 shrink-0" />
+              <a href="tel:+18192089729" className="font-dm text-[0.85rem] text-white/60 hover:text-white transition-colors">
+                (819) 208-9729
+              </a>
             </div>
 
             <div className="flex items-start gap-3">

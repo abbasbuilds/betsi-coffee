@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MapPin, ShoppingBag, Clock } from "lucide-react";
+import { MapPin, ShoppingBag, Clock, Phone } from "lucide-react";
 
 const details = [
   {
@@ -15,6 +15,12 @@ const details = [
     label: "Hours",
     value: "Mon–Fri 7:30 AM–7:00 PM · Sat 9:30 AM–7:00 PM · Sun 11:00 AM–7:00 PM",
     href: null,
+  },
+  {
+    icon: Phone,
+    label: "Phone",
+    value: "(819) 208-9729",
+    href: "tel:+18192089729",
   },
   {
     icon: ShoppingBag,
