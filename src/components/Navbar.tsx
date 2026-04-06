@@ -1,9 +1,18 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
+
+const links = [
+  { label: "Menu",      href: "#menu" },
+  { label: "Our Story", href: "#story" },
+  { label: "Reviews",   href: "#reviews" },
+  { label: "Find Us",   href: "#visit" },
+];
 
 export function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled]     = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -23,45 +32,69 @@ export function Navbar() {
         {/* Logo */}
         <a
           href="/"
-          className={`font-cormorant text-4xl italic font-light tracking-wide transition-colors ${
+          className={`font-cormorant text-3xl sm:text-4xl italic font-light tracking-wide transition-colors ${
             scrolled ? "text-brand-gold" : "text-white"
           }`}
         >
           Melaku
         </a>
 
-        {/* Links */}
+        {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
-          {[
-            { label: "Menu", href: "#menu" },
-            { label: "Our Story", href: "#story" },
-            { label: "Reviews", href: "#reviews" },
-            { label: "Find Us", href: "#visit" },
-          ].map(({ label, href }) => (
+          {links.map(({ label, href }) => (
             <a
               key={label}
               href={href}
-              className={`font-dm text-xs uppercase tracking-[0.12em] transition-colors ${
-                scrolled
-                  ? "text-white/70 hover:text-white"
-                  : "text-white/80 hover:text-white"
-              }`}
+              className="font-dm text-xs uppercase tracking-[0.12em] transition-colors text-white/80 hover:text-white"
             >
               {label}
             </a>
           ))}
         </div>
 
-        {/* CTA */}
+        {/* Desktop CTA */}
         <a
           href="https://www.ubereats.com/ca/store/betsi-coffee-bank/TeoY_xNQVby7gJPs7XWC2w"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-5 py-2 bg-brand-espresso text-white font-dm font-semibold text-xs tracking-[0.12em] uppercase rounded-full hover:bg-brand-espresso-light transition-colors"
+          className="hidden md:inline-flex px-5 py-2 bg-brand-espresso text-white font-dm font-semibold text-xs tracking-[0.12em] uppercase rounded-full hover:bg-brand-espresso-light border border-brand-gold/20 transition-colors"
         >
           Order Now
         </a>
+
+        {/* Mobile toggle */}
+        <button
+          className="md:hidden text-white p-1"
+          onClick={() => setMobileOpen(!mobileOpen)}
+          aria-label="Toggle menu"
+        >
+          {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+        </button>
       </div>
+
+      {/* Mobile menu */}
+      {mobileOpen && (
+        <div className="md:hidden bg-brand-espresso/98 backdrop-blur-md border-t border-brand-gold/10 px-6 py-6 space-y-4">
+          {links.map(({ label, href }) => (
+            <a
+              key={label}
+              href={href}
+              onClick={() => setMobileOpen(false)}
+              className="block font-dm text-sm text-white/70 hover:text-brand-gold transition-colors uppercase tracking-[0.12em]"
+            >
+              {label}
+            </a>
+          ))}
+          <a
+            href="https://www.ubereats.com/ca/store/betsi-coffee-bank/TeoY_xNQVby7gJPs7XWC2w"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-center px-5 py-3 bg-brand-gold text-brand-dark font-dm font-semibold text-sm tracking-[0.12em] uppercase rounded-full mt-2"
+          >
+            Order on UberEats
+          </a>
+        </div>
+      )}
     </nav>
   );
 }

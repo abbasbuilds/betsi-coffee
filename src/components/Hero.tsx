@@ -23,7 +23,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: "easeOut" }}
-          className="max-w-[52%] lg:max-w-[46%]"
+          className="max-w-full sm:max-w-[80%] lg:max-w-[46%]"
         >
           <span className="font-dm text-brand-gold uppercase tracking-[0.3em] text-[0.68rem] font-medium mb-5 block">
             Ethiopian Coffee

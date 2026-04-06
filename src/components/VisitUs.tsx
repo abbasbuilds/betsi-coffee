@@ -92,7 +92,7 @@ export function VisitUs() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.15 }}
-            className="h-[420px] rounded-2xl overflow-hidden border border-brand-border shadow-sm"
+            className="aspect-square rounded-2xl overflow-hidden border border-brand-border shadow-sm"
           >
             <iframe
               src="https://maps.google.com/maps?q=260+Bank+St,+Ottawa,+ON+K2P+1X4,+Canada&output=embed&z=16"

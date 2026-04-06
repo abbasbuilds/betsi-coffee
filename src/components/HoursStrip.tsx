@@ -45,9 +45,9 @@ export function HoursStrip() {
         {/* Clock icon */}
         <Clock size={13} className="text-brand-gold hidden sm:block" />
 
-        {/* Hours */}
+        {/* Hours — hidden on mobile, visible from sm */}
         {hours.map(({ days, time }, i) => (
-          <div key={days} className="flex items-center gap-6">
+          <div key={days} className="hidden sm:flex items-center gap-6">
             <span className="font-dm text-[0.72rem] text-white/50 tracking-[0.08em]">
               {days}&nbsp;
               <span className="text-white/80 font-medium">{time}</span>
