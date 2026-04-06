@@ -15,7 +15,7 @@ export function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/97 backdrop-blur-sm py-3 border-b border-brand-border shadow-sm"
+          ? "bg-brand-espresso/97 backdrop-blur-sm py-3 border-b border-brand-gold/15 shadow-sm"
           : "bg-transparent py-5"
       }`}
     >
@@ -24,7 +24,7 @@ export function Navbar() {
         <a
           href="/"
           className={`font-cormorant text-4xl italic font-light tracking-wide transition-colors ${
-            scrolled ? "text-brand-espresso" : "text-white"
+            scrolled ? "text-brand-gold" : "text-white"
           }`}
         >
           Melaku
@@ -43,7 +43,7 @@ export function Navbar() {
               href={href}
               className={`font-dm text-xs uppercase tracking-[0.12em] transition-colors ${
                 scrolled
-                  ? "text-brand-text hover:text-brand-espresso"
+                  ? "text-white/70 hover:text-white"
                   : "text-white/80 hover:text-white"
               }`}
             >
