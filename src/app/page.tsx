@@ -6,6 +6,7 @@ import { CoffeeFeature } from "@/components/CoffeeFeature";
 import { Story } from "@/components/Story";
 import { EthiopianBorder } from "@/components/EthiopianBorder";
 import { Menu } from "@/components/Menu";
+import { BrandBanner } from "@/components/BrandBanner";
 import { Reviews } from "@/components/Reviews";
 import { VisitUs } from "@/components/VisitUs";
 import { FinalCTA } from "@/components/FinalCTA";
@@ -22,6 +23,7 @@ export default function Home() {
       <Story />
       <EthiopianBorder id="tb-story-menu" />
       <Menu />
+      <BrandBanner />
       <Reviews />
       <VisitUs />
       <FinalCTA />
