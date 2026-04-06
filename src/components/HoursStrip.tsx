@@ -29,12 +29,12 @@ export function HoursStrip() {
         <span
           className={`inline-flex items-center gap-1.5 font-dm text-[0.65rem] uppercase tracking-[0.2em] font-semibold px-3 py-1 rounded-full ${
             open
-              ? "bg-brand-espresso/20 text-brand-espresso border border-brand-espresso/30"
+              ? "bg-brand-gold/20 text-brand-gold border border-brand-gold/50"
               : "bg-white/5 text-white/40 border border-white/10"
           }`}
         >
           <span
-            className={`w-1.5 h-1.5 rounded-full ${open ? "bg-brand-espresso animate-pulse" : "bg-white/30"}`}
+            className={`w-1.5 h-1.5 rounded-full ${open ? "bg-brand-gold animate-pulse" : "bg-white/30"}`}
           />
           {open ? "Open Now" : "Closed"}
         </span>
