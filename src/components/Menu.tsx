@@ -69,7 +69,7 @@ export function Menu() {
                     <p className="font-dm text-brand-dark font-medium text-sm">{name}</p>
                     <p className="font-dm text-brand-muted text-xs mt-0.5">{note}</p>
                   </div>
-                  <span className="font-cormorant text-brand-green text-xl font-light shrink-0">
+                  <span className="font-cormorant text-brand-espresso text-xl font-light shrink-0">
                     {price}
                   </span>
                 </div>
@@ -104,7 +104,7 @@ export function Menu() {
                     <p className="font-dm text-brand-dark font-medium text-sm">{name}</p>
                     <p className="font-dm text-brand-muted text-xs mt-0.5">{note}</p>
                   </div>
-                  <span className="font-cormorant text-brand-green text-xl font-light shrink-0">
+                  <span className="font-cormorant text-brand-espresso text-xl font-light shrink-0">
                     {price}
                   </span>
                 </div>

@@ -59,7 +59,7 @@ export function Story() {
                     borderTopColor: ["#DA291C", "#FCDD09", "#078930", "#C59D5F"][i],
                   }}
                 >
-                  <span className="font-cormorant text-brand-green text-[2.8rem] font-semibold leading-none">
+                  <span className="font-cormorant text-brand-espresso text-[2.8rem] font-semibold leading-none">
                     {value}
                   </span>
                   <span className="font-dm text-brand-muted text-[0.68rem] uppercase tracking-[0.15em]">

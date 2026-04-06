@@ -11,7 +11,7 @@ export function FinalCTA() {
     <div className="overflow-hidden">
       <EthiopianBorder id="tb-cta-top" />
 
-      <section className="relative py-32 lg:py-44 bg-brand-green overflow-hidden">
+      <section className="relative py-32 lg:py-44 bg-brand-espresso overflow-hidden">
         {/* Diamond grid texture */}
         <div
           className="absolute inset-0 z-0"
@@ -75,7 +75,7 @@ export function FinalCTA() {
                 href="https://www.ubereats.com/ca/store/betsi-coffee-bank/TeoY_xNQVby7gJPs7XWC2w"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-10 py-4 bg-white text-brand-green font-dm font-semibold text-sm tracking-[0.15em] uppercase rounded-full hover:bg-brand-cream transition-colors"
+                className="px-10 py-4 bg-white text-brand-espresso font-dm font-semibold text-sm tracking-[0.15em] uppercase rounded-full hover:bg-brand-cream transition-colors"
               >
                 Order on UberEats ↗
               </a>

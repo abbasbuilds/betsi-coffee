@@ -1,28 +1,27 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Brand — exact from betsi-coffee-bank.menu-world.com */
-  --color-brand-green: #556B2F;
-  --color-brand-green-light: #6B8840;
-  --color-brand-green-dark: #3D4E22;
-  --color-brand-green-subtle: rgba(85, 107, 47, 0.07);
+  /* Brand — Melaku Ethiopian Coffee: espresso · cream · gold */
+  --color-brand-espresso:       #2C1508;
+  --color-brand-espresso-light: #4A2512;
+  --color-brand-espresso-dark:  #180A03;
 
-  --color-brand-cream: #FFF5E1;
+  --color-brand-cream:      #FFF5E1;
   --color-brand-cream-dark: #EDE0C4;
 
   --color-brand-white: #FFFFFF;
 
-  --color-brand-gold: #C59D5F;
+  --color-brand-gold:       #C59D5F;
   --color-brand-gold-vivid: #E8B84B;
   --color-brand-gold-hover: #A8834A;
 
-  --color-brand-dark: #1C2010;
-  --color-brand-text: #3A3A2A;
-  --color-brand-muted: #7A7A6A;
-  --color-brand-border: rgba(85, 107, 47, 0.15);
+  --color-brand-dark:   #180A03;
+  --color-brand-text:   #2C1A0E;
+  --color-brand-muted:  #7A6A58;
+  --color-brand-border: rgba(44, 21, 8, 0.12);
 
   /* Ethiopian flag accent palette — use sparingly for cultural accents */
-  --color-eth-red: #DA291C;
+  --color-eth-red:  #DA291C;
   --color-eth-gold: #FCDD09;
   --color-eth-green: #078930;
 
@@ -32,7 +31,7 @@
 
 :root {
   --background: #FFFFFF;
-  --foreground: #3A3A2A;
+  --foreground: #2C1A0E;
 }
 
 body {
@@ -49,7 +48,7 @@ body {
   background: #FFF5E1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #556B2F;
+  background: #2C1508;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {

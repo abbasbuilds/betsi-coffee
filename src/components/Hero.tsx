@@ -50,7 +50,7 @@ export function Hero() {
           <div className="flex flex-wrap items-center gap-4 mt-10">
             <a
               href="#menu"
-              className="px-8 py-3.5 bg-brand-green text-white font-dm font-semibold text-sm tracking-[0.15em] uppercase rounded-full hover:bg-brand-green-light transition-colors"
+              className="px-8 py-3.5 bg-brand-espresso text-white font-dm font-semibold text-sm tracking-[0.15em] uppercase rounded-full hover:bg-brand-espresso-light transition-colors"
             >
               View Menu →
             </a>

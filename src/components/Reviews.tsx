@@ -69,7 +69,7 @@ export function Reviews() {
                 &ldquo;{text}&rdquo;
               </p>
               <div className="flex items-center gap-3 pt-3 border-t border-brand-border">
-                <div className="w-8 h-8 rounded-full bg-brand-green flex items-center justify-center">
+                <div className="w-8 h-8 rounded-full bg-brand-espresso flex items-center justify-center">
                   <span className="font-cormorant text-white text-sm font-semibold">
                     {author[0]}
                   </span>

@@ -23,7 +23,7 @@ export function Navbar() {
         {/* Logo */}
         <span
           className={`font-cormorant text-4xl italic font-light tracking-wide transition-colors ${
-            scrolled ? "text-brand-green" : "text-white"
+            scrolled ? "text-brand-espresso" : "text-white"
           }`}
         >
           Melaku
@@ -42,7 +42,7 @@ export function Navbar() {
               href={href}
               className={`font-dm text-xs uppercase tracking-[0.12em] transition-colors ${
                 scrolled
-                  ? "text-brand-text hover:text-brand-green"
+                  ? "text-brand-text hover:text-brand-espresso"
                   : "text-white/80 hover:text-white"
               }`}
             >
@@ -56,7 +56,7 @@ export function Navbar() {
           href="https://www.ubereats.com/ca/store/betsi-coffee-bank/TeoY_xNQVby7gJPs7XWC2w"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-5 py-2 bg-brand-green text-white font-dm font-semibold text-xs tracking-[0.12em] uppercase rounded-full hover:bg-brand-green-light transition-colors"
+          className="px-5 py-2 bg-brand-espresso text-white font-dm font-semibold text-xs tracking-[0.12em] uppercase rounded-full hover:bg-brand-espresso-light transition-colors"
         >
           Order Now
         </a>

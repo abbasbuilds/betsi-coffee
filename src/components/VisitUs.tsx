@@ -52,7 +52,7 @@ export function VisitUs() {
             <div className="space-y-6 mb-10">
               {details.map(({ icon: Icon, label, value, href }) => (
                 <div key={label} className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-full bg-brand-green flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-brand-espresso flex items-center justify-center shrink-0">
                     <Icon size={16} className="text-white" />
                   </div>
                   <div>
@@ -64,7 +64,7 @@ export function VisitUs() {
                         href={href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-dm text-brand-dark text-sm hover:text-brand-green transition-colors"
+                        className="font-dm text-brand-dark text-sm hover:text-brand-espresso transition-colors"
                       >
                         {value}
                       </a>
@@ -80,7 +80,7 @@ export function VisitUs() {
               href="https://maps.google.com/?q=Melaku+Coffee+260+Bank+St+Ottawa+ON"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-3.5 bg-brand-green text-white font-dm font-semibold text-sm tracking-[0.15em] uppercase rounded-full hover:bg-brand-green-light transition-colors"
+              className="inline-flex items-center gap-2 px-8 py-3.5 bg-brand-espresso text-white font-dm font-semibold text-sm tracking-[0.15em] uppercase rounded-full hover:bg-brand-espresso-light transition-colors"
             >
               Get Directions →
             </a>
