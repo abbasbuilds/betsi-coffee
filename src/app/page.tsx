@@ -2,6 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { HoursStrip } from "@/components/HoursStrip";
 import { Marquee } from "@/components/Marquee";
+import { CoffeeFeature } from "@/components/CoffeeFeature";
 import { Story } from "@/components/Story";
 import { EthiopianBorder } from "@/components/EthiopianBorder";
 import { Menu } from "@/components/Menu";
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <HoursStrip />
       <Marquee />
+      <CoffeeFeature />
       <Story />
       <EthiopianBorder id="tb-story-menu" />
       <Menu />

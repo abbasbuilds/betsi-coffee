@@ -5,17 +5,17 @@ import { motion } from "framer-motion";
 export function Hero() {
   return (
     <section className="relative h-svh w-full overflow-hidden">
-      {/* Real photo background */}
+      {/* Mural background */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1630861412757-d9743d318312?w=1920&q=85&fit=crop&crop=center')`,
-          backgroundPosition: "60% center",
+          backgroundImage: `url('/ethio-image.jpeg')`,
+          backgroundPosition: "center top",
         }}
       />
       {/* Overlays — vertical base + strong left-side text protection */}
-      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-brand-dark/60 via-brand-dark/20 to-brand-dark/75" />
-      <div className="absolute inset-0 z-[2] bg-gradient-to-r from-brand-dark/85 via-brand-dark/50 to-transparent" />
+      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-brand-dark/70 via-brand-dark/30 to-brand-dark/80" />
+      <div className="absolute inset-0 z-[2] bg-gradient-to-r from-brand-dark/90 via-brand-dark/55 to-transparent" />
 
       {/* Content — vertically centered, left-anchored */}
       <div className="relative z-10 w-full h-full max-w-7xl mx-auto flex flex-col justify-center px-6 pt-20 lg:px-12">
