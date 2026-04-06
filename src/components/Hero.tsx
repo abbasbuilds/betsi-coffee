@@ -13,9 +13,9 @@ export function Hero() {
           backgroundPosition: "center top",
         }}
       />
-      {/* Overlays — vertical base + strong left-side text protection */}
-      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-brand-dark/70 via-brand-dark/30 to-brand-dark/80" />
-      <div className="absolute inset-0 z-[2] bg-gradient-to-r from-brand-dark/90 via-brand-dark/55 to-transparent" />
+      {/* Overlays — vertical base + left-side text protection */}
+      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-brand-dark/40 via-brand-dark/10 to-brand-dark/55" />
+      <div className="absolute inset-0 z-[2] bg-gradient-to-r from-brand-dark/75 via-brand-dark/30 to-transparent" />
 
       {/* Content — vertically centered, left-anchored */}
       <div className="relative z-10 w-full h-full max-w-7xl mx-auto flex flex-col justify-center px-6 pt-20 lg:px-12">
