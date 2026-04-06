@@ -21,13 +21,14 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
         {/* Logo */}
-        <span
+        <a
+          href="/"
           className={`font-cormorant text-4xl italic font-light tracking-wide transition-colors ${
             scrolled ? "text-brand-espresso" : "text-white"
           }`}
         >
           Melaku
-        </span>
+        </a>
 
         {/* Links */}
         <div className="hidden md:flex items-center gap-8">
